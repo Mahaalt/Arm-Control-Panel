@@ -1,0 +1,93 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Arm Control Panel</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+    
+<body>
+<header>
+<img src="image/logo.png" >
+</header>
+
+    
+<form action="index.php" method="POST">
+ 
+<div id = "div1">
+<ul>
+<li><a href="#">Welcome</a></li>
+<li><a href="index.html">Arm</a></li>
+<li><a href="#">Base</a></li>
+</ul>
+</div>
+  
+<div id = "div2">
+<br><br><br>  
+
+<article> 
+ 
+<h1>Arm Control Panel</h1>
+
+<p>
+<label>Motor 01:</label>
+<input type = "range" class = "slider" id = "m1" value = "90" min = "0" max = "180" name = "motor1" />
+<label id = "motor1" style = "padding-left:20px;"></label>
+</p>
+  
+<p>
+<label>Motor 02:</label>
+<input type = "range" class = "slider" id = "m2" value = "90" min = "0" max = "180" name = "motor2" />
+<label id = "motor2" style = "padding-left:20px;"></label>
+</p>
+
+<p>
+<label>Motor 03:</label>
+<input type = "range" class = "slider" id ="m3" value = "90" min = "0" max = "180" name = "motor3" />
+<label id = "motor3" style = "padding-left:20px;"></label>
+</p>
+  
+<p>
+  <label>Motor 04:</label>
+  <input type = "range" class = "slider" id = "m4" value = "90" min = "0" max = "180" name = "motor4" />
+  <label id = "motor4" style = "padding-left:20px;"></label>
+  </p>
+    
+  <p>
+  <label>Motor 05:</label>
+  <input type = "range" class = "slider" id = "m5" value = "90" min = "0" max = "180" name = "motor5" />
+  <label id = "motor5" style = "padding-left:20px;"></label>
+  </p>
+  
+  <p>
+  <label>Motor 06:</label>
+  <input type = "range" class = "slider" id ="m6" value = "90" min = "0" max = "180" name = "motor6" />
+  <label id = "motor6" style = "padding-left:20px;"></label>
+  </p>
+
+<br><br>
+                    
+<input type="submit" class="button button1" value="Save" name="save">
+
+<input type="submit" class="button button2" value="ON" name="on">
+
+<input type="submit" class="button button3" value="OFF" name="off">
+
+</article>
+</div>
+</form>
+
+
+<footer>
+<br>
+<p>Smart Methods Est ©  All rights reserved 2020</p>
+</footer>
+
+
+</body>
+<script src="main.js"></script>
+</html>
